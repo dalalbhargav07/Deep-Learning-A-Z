@@ -39,3 +39,55 @@ Tool used to built RNN are:
 * Keras
 * Tensorflow
 * Scikit-Learn
+
+### 4. Fraud Detection
+The business challenge here is about detecting fraud in credit card applications. You will be creating a Deep Learning model for a bank and you are given a dataset that contains information on customers applying for an advanced credit card.
+
+#### [4.1 Fraud Detection using Self Organizing Maps (SOM)](https://github.com/dalalbhargav07/Deep-Learning-A-Z/blob/master/Volume%202%20-%20Unsupervised%20Deep%20Learning/Part%204%20-%20Self_Organizing_Maps/Fraud%20Detection.ipynb)
+This is the an Unsupervised Deep Learning Models. The data comprises of information that customers provided when filling the application form. The task is hese is to detect potential fraud within these applications. That means that by the end of this challenge, it will come up with explicit list of customers who potentially cheated on their applications.
+
+Tool used to built SOM are:
+* Keras
+* Tensorflow
+* Scikit-Learn
+
+#### [4.2 Fraud Detection using Hybrid Model](https://github.com/dalalbhargav07/Deep-Learning-A-Z/blob/master/Mega_Case_Study/Mega%20Case%20Study.ipynb)
+
+Here the hybrid model was built using Artificial Neural Network (ANN) and Self Organization Maps (SOM) deep learning models. The dataset here used for this case study was the credit card application information data. The intutiton behind the case study is to identify the fraud using SOM and then the idea is to develop advance deep learning which will predic the probabilities of each customer cheated.
+
+Tool used to built Hybrid Model are:
+* Keras
+* Tensorflow
+* Scikit-Learn
+
+### 5. Recommendation System
+
+In this project, created a specific recommendation system using Restricted Boltzman Machine (RBM) & Auto Encoder algorithm. The data set used in this project was downloaded from the movie lens site. You can download the dataset from here.
+
+The goal here was to mimic the recommendation systesm of Netflix. Our dataset has similar features as the Netflix dataset: plent of movies. thousands of users, who have rated the movie.
+
+#### [5.1 Movie Recommendation System using RBM](https://github.com/dalalbhargav07/Deep-Learning-A-Z/blob/master/Volume%202%20-%20Unsupervised%20Deep%20Learning/Part%205%20-%20Boltzmann%20Machines%20(BM)/Binary%20Movie%20Recommendation%20System%20using%20RBM.ipynb)
+
+Tool used to built Recommendation System are:
+* PyTorch
+* Pandas
+
+#### [5.2 Movie Recommendation System using Auto Encoder](https://github.com/dalalbhargav07/Deep-Learning-A-Z/blob/master/Volume%202%20-%20Unsupervised%20Deep%20Learning/Part%206%20-%20AutoEncoders%20(AE)/Recommendation%20System%20-%20Auto%20Encoder.ipynb)
+
+Tool used to built Recommendation System are:
+* PyTorch
+* Pandas
+
+### What I have learnt from this course?
+* Understand the intuition behind Artificial Neural Networks
+* Apply Artificial Neural Networks in practice
+* Understand the intuition behind Convolutional Neural Networks
+* Apply Convolutional Neural Networks in practice
+* Understand the intuition behind Recurrent Neural Networks
+* Apply Recurrent Neural Networks in practice
+* Understand the intuition behind Self-Organizing Maps
+* Apply Self-Organizing Maps in practice
+* Understand the intuition behind Boltzmann Machines
+* Apply Boltzmann Machines in practice
+* Understand the intuition behind AutoEncoders
+* Apply AutoEncoders in practice
